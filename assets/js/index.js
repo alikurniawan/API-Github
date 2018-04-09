@@ -8,7 +8,7 @@ let getData = () => {
       let followerList = '';
       datas.map((data, index) => {
         followerList += `
-        <div class="col-sm-6 col-md-4 mb-2">
+        <div class="col-sm-6 col-md-4 mb-2 animated wobble">
         <div id="cardList" class="card" style="width: 18rem;">
           <img class="card-img-top sizeAvatar circle" src='${data.avatar_url}' alt="Card image cap">
           <div class="card-body">
